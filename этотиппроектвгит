@@ -1,0 +1,15 @@
+# Сюда закидываем чистый код без описания и коментариев
+("16.11.2023.")
+("17.11.2023")
+from tkinter import *
+from tkinter import messagebox
+
+("19.11.2023")# редоктирование под главвное меню
+def clicked():
+    messagebox.showinfo("ПРИЛОЖЕНИЕ ДЛЯ СОК ССЫЛОК", "ТАК СЮДА НАДО ВПИХНУТЬ КАКТО САМО ПРИЛОЖЕННИЕ")
+root = Tk()
+root.title("Сокрощятель ссылок")
+root.geometry("1500x1000")
+btn = Button(root, text="переход из главнного меню", command=clicked)  
+btn.grid(column=1, row=0)
+root.mainloop()
