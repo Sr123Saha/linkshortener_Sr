@@ -33,8 +33,8 @@ class Application:
 
         self.window_to_insert_a_link_two = ttk.Entry(self.window, width=40, font="Arial 27")
         self.window_to_insert_a_link_two.place(x=40, y=135)
-
-        self.window.bind_all('<Key>', self.keypress)  # Bind the keypress function to all keys
+        #123#
+        self.window.bind_all('<Key>', self.keypress)
         self.window.mainloop()
 
     def shorten_url(self):
