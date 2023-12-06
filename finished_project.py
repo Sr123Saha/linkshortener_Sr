@@ -8,7 +8,7 @@ from tkinter import *
 class Application:
     def __init__(self):
         self.window = Tk()
-        self.window.title('ПРОГРАММА ДЛЯ СОКРАЩЕНИЯЙ ССЫЛОК')
+        self.window.title('ПРОГРАММА ДЛЯ СОКРАЩЕНИЙ ССЫЛОК')
         self.window.geometry('1000x250')
         self.window["bg"] = "#91908D"
         self.window.resizable(width=False, height=False)
@@ -47,7 +47,7 @@ class Application:
         self.window_to_insert_a_link_two.insert(0, shortened_url)
         
         pyperclip.copy(shortened_url)
-        messagebox.showinfo("ПРОГРАММА ДЛЯ СОКРАЩЕНИЯЙ ССЫЛОК", "ВАША ССЫЛКА В УКОРОЧЕННОМ ФОРМАТЕ СКОПИРОВАНА В БУФЕР ОБМЕНЯ")
+        messagebox.showinfo("ПРОГРАММА ДЛЯ СОКРАЩЕНИЙ ССЫЛОК", "ВАША ССЫЛКА В УКОРОЧЕННОМ ФОРМАТЕ СКОПИРОВАНА В БУФЕР ОБМЕНЯ")
 
     def clear_entry(self):
         self.window_to_insert_a_link.delete(0, 'end')
